@@ -1,0 +1,81 @@
+body {
+    background-color: #3e4444;
+    color: #f0f0f0;
+}
+
+nav {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5%;
+    border-style: solid;
+    font-style:normal;
+    text-decoration: solid;
+    text-transform: capitalize;
+    color: #92A8D1;
+}
+
+h1 {
+    font-family: 'Scheherazade New', serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header img {
+    width: 25%;
+    height: 35%;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    color: #92A8D1;
+    font-family: 'Poppins', sans-serif;
+    border-top:  rgb(160, 160, 160);
+    border-bottom: rgb(160, 160, 160);
+    margin-top: 8%;
+    margin-bottom:8%;
+    border-style: solid;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+section {
+    font-family: Georgia, serif;;
+}
+
+.About {
+    text-align: center;
+}
+
+h3 {
+    color: #92A8D1;
+    text-decoration: bold underline;
+}
+
+
+button {
+    background-color: #92A8D1;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.4ms;
+
+}
+button:hover {
+    background-color: black;
+  color:white;
+}
